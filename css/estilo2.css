@@ -1,0 +1,73 @@
+
+header nav ul li a{
+    color: red;
+    
+}
+
+
+/*selector tipo class*/
+header nav ul li a.amarillo {
+    color: yellow;
+    background-color: black;
+}
+
+header nav ul li a#verde{
+     color: green;
+    background-color: orange;
+}
+
+body{
+    font-family: 'Gochi Hand', cursive;
+    font-size:  16px;
+    
+}
+header {
+    background-color: #DFAC60;
+    text-align: right;
+
+}
+header figure{
+    float: left;
+    margin-left: 100px;
+    border-radius:50%;
+}
+header figure img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+section article{
+    color: red;
+    font-weight: bolder; /* negrita al texto*/
+    text-align: center; /*alinear texto*/
+    font-style: italic; /*poner texto en curivo */
+    text-decoration: underline; /*subrayar  el texto*/
+    line-height: 35px; /*espacio entre lineas*/
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+
+/************** Mobile First **********/
+
+@media screen and (min-width: 480px)
+    {
+       
+        
+    }
+@media screen and (min-width: 767px)
+    {
+        
+        
+    }
+@media screen and (min-width: 950px)
+    {
+       
+        
+    }
+
+

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 16px;
+}
+
+header h1#titulo {
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    text-align: center;
+    list-style: none;
+    /*quitar puntos de la lista*/
+    margin: 0;
+    /*quitar la configuración por defecto del                             navegador*/
+    padding: 0;
+}
+
+header nav ul li {
+    text-align: center;
+}
+
+header nav ul li a {
+    display: block;
+    /* convierto cada elemento bloque*/
+    float: left;
+    /* los convierto flotante para 
+                   ponerlos uno detras de otro*/
+    margin: 20px;
+    text-decoration: none;
+}
+
+
+/************** Mobile First **********/
+
+@media screen and (min-width: 480px) {}
+
+@media screen and (min-width: 767px) {}
+
+@media screen and (min-width: 950px) {}
